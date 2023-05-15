@@ -38,6 +38,7 @@ prompt.get(['userSelection'], function(err, result) {
     // OUTPUT
         console.log("User Won!");
     }
+    
 });
 
 function randomInt(min, max) { // min and max included 
