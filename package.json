@@ -1,9 +1,9 @@
 {
-  "name": "Lab-2",
+  "name": "lab-2",
   "version": "1.0.0",
   "author": "Sam Jackson 100137493",
   "description": "��#\u0000 \u0000C\u0000O\u0000M\u0000P\u00002\u00000\u00006\u00008\u0000\r\u0000 \u0000",
-  "main": "server.js",
+  "main": "Assignment1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
