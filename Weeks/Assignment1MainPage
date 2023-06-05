@@ -1,0 +1,29 @@
+const express = require("express");
+const app = express();
+
+function landingPage(req, res, next){
+    res.send("Welcome to my Portfolio");
+    res.end();
+}
+function about(req, res, next){
+    res.send("About: Sam Jackson");
+    res.send("This is a portfolio I created in 2023. I am a Canadian software developer in a Computer Programming course at Georgian College in Barrie, Ontario.");
+}
+function projects(req, res, next){
+    res.send("My Projects:");
+    res.send("The following are projects I have created over the past 2 years:");
+}
+function contact(req, res, next){
+    res.send("Contact Me:");
+    res.send("Please leave a message using the form below or email me @ jacksonosamuel@gmail.com");
+}
+
+app.get('/', landingPage);
+
+app.get('/projects', projects);
+app.get('/contact', contact);
+
+
+app.listen(3000, () => {
+    console.log("App is running");
+});
